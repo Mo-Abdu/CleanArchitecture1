@@ -1,0 +1,781 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|solutionrelative:models\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\bookhandlers\\deletebookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\bookhandlers\\deletebookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4929568E-F732-45F8-A2FD-3E473A182929}|Test\\IntegrationTest.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\test\\integrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4929568E-F732-45F8-A2FD-3E473A182929}|Test\\IntegrationTest.csproj|solutionrelative:test\\integrationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\validators\\bookvalidators\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\validators\\bookvalidators\\updatebookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\validators\\bookvalidators\\addbookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\validators\\bookvalidators\\addbookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\validators\\authorvalidators\\updateauthorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\validators\\authorvalidators\\updateauthorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\validators\\authorvalidators\\addauthorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\validators\\authorvalidators\\addauthorcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getbooksqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getbooksquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getbookbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getbookbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getauthorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getauthorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getauthorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getauthorbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getauthorbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\queries\\getauthorbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\queries\\getauthorbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\interfaces\\repositoryinterfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repositoryinterfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\interfaces\\repositoryinterfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repositoryinterfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\bookhandlers\\updatebookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\bookhandlers\\updatebookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\bookhandlers\\addbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\bookhandlers\\addbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\authorhandlers\\updateauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\authorhandlers\\updateauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\authorhandlers\\deleteauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\authorhandlers\\deleteauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\handlers\\authorhandlers\\addauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\handlers\\authorhandlers\\addauthorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\bookcommands\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\bookcommands\\updatebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\bookcommands\\deletebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\bookcommands\\deletebookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\bookcommands\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\bookcommands\\addbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\authorcommands\\updateauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\authorcommands\\updateauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\authorcommands\\deleteauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\authorcommands\\deleteauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\commands\\authorcommands\\addauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\commands\\authorcommands\\addauthorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C533AF0-1178-405E-8BFB-C0D86C4ABD05}|Models\\Models.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\infrastructure\\realdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\realdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D9745C9-5095-4DB2-AE29-4331E653829F}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ED1EBAF-D1F3-45F6-A57F-7F6403FB2D07}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\downloads\\cleanarchitecture1\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CAF4C230-FF08-421B-BE66-FD344ACC6ED7}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\OperationResult.cs",
+              "RelativeDocumentMoniker": "Models\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\OperationResult.cs",
+              "RelativeToolTip": "Models\\OperationResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:01:34.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateAuthorCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\AuthorValidators\\UpdateAuthorCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\AuthorValidators\\UpdateAuthorCommandValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\AuthorValidators\\UpdateAuthorCommandValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\AuthorValidators\\UpdateAuthorCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T21:45:40.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Api\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:07:19.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Api\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:28:21.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:20:24.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IntegrationTest.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Test\\IntegrationTest.csproj",
+              "RelativeDocumentMoniker": "Test\\IntegrationTest.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Test\\IntegrationTest.csproj",
+              "RelativeToolTip": "Test\\IntegrationTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T13:33:57.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\DeleteBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\BookHandlers\\DeleteBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\DeleteBookCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\BookHandlers\\DeleteBookCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T00:07:23.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddBookCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\BookValidators\\AddBookCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\BookValidators\\AddBookCommandValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\BookValidators\\AddBookCommandValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\BookValidators\\AddBookCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:20:35.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateBookCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\BookValidators\\UpdateBookCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\BookValidators\\UpdateBookCommandValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\BookValidators\\UpdateBookCommandValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\BookValidators\\UpdateBookCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:20:45.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:20:57.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddAuthorCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\AuthorValidators\\AddAuthorCommandValidator.cs",
+              "RelativeDocumentMoniker": "Application\\Validators\\AuthorValidators\\AddAuthorCommandValidator.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Validators\\AuthorValidators\\AddAuthorCommandValidator.cs",
+              "RelativeToolTip": "Application\\Validators\\AuthorValidators\\AddAuthorCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T21:44:32.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetBooksQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBooksQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetBooksQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBooksQueryHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetBooksQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T21:56:18.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetBooksQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBooksQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetBooksQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBooksQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetBooksQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T19:58:44.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetBookByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBookByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetBookByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBookByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetBookByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:36:15.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetBookByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBookByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetBookByIdQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetBookByIdQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetBookByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:33:29.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAuthorsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAuthorsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorsQueryHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAuthorsQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:00:38.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAuthorsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorsQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAuthorsQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorsQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAuthorsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T19:57:31.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAuthorByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAuthorByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorByIdQueryHandler.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAuthorByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:56:45.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAuthorByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Queries\\GetAuthorByIdQuery.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Queries\\GetAuthorByIdQuery.cs",
+              "RelativeToolTip": "Application\\Queries\\GetAuthorByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:30:11.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Interfaces\\RepositoryInterfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\RepositoryInterfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Interfaces\\RepositoryInterfaces\\IBookRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\RepositoryInterfaces\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:29:08.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Interfaces\\RepositoryInterfaces\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\RepositoryInterfaces\\IAuthorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Interfaces\\RepositoryInterfaces\\IAuthorRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\RepositoryInterfaces\\IAuthorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:21:09.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\UpdateBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\BookHandlers\\UpdateBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\UpdateBookCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\BookHandlers\\UpdateBookCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T09:26:31.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\AddBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\BookHandlers\\AddBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\BookHandlers\\AddBookCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\BookHandlers\\AddBookCommandHandler.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T23:48:27.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateAuthorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\UpdateAuthorCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\AuthorHandlers\\UpdateAuthorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\UpdateAuthorCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\AuthorHandlers\\UpdateAuthorCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:03:52.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteAuthorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\DeleteAuthorCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\AuthorHandlers\\DeleteAuthorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\DeleteAuthorCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\AuthorHandlers\\DeleteAuthorCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:46:38.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddAuthorCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\AddAuthorCommandHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Handlers\\AuthorHandlers\\AddAuthorCommandHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Handlers\\AuthorHandlers\\AddAuthorCommandHandler.cs",
+              "RelativeToolTip": "Application\\Handlers\\AuthorHandlers\\AddAuthorCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T21:51:28.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\UpdateBookCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\BookCommands\\UpdateBookCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\UpdateBookCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\BookCommands\\UpdateBookCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:40:54.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\DeleteBookCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\BookCommands\\DeleteBookCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\DeleteBookCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\BookCommands\\DeleteBookCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:39:38.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\AddBookCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\BookCommands\\AddBookCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\BookCommands\\AddBookCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\BookCommands\\AddBookCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:34:59.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateAuthorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\UpdateAuthorCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\AuthorCommands\\UpdateAuthorCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\UpdateAuthorCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\AuthorCommands\\UpdateAuthorCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:59:48.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteAuthorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\DeleteAuthorCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\AuthorCommands\\DeleteAuthorCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\DeleteAuthorCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\AuthorCommands\\DeleteAuthorCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:32:54.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddAuthorCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\AddAuthorCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Commands\\AuthorCommands\\AddAuthorCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Commands\\AuthorCommands\\AddAuthorCommand.cs",
+              "RelativeToolTip": "Application\\Commands\\AuthorCommands\\AddAuthorCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:59:39.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T20:45:28.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:03:27.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:04:17.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T14:24:29.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:42:26.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T13:26:22.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RealDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\RealDatabase.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\RealDatabase.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\RealDatabase.cs",
+              "RelativeToolTip": "Infrastructure\\RealDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T08:26:54.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Api\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Api\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:41:48.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAGBnwBAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-12T11:44:18.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\appsettings.Development.json",
+              "RelativeToolTip": "Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-12T11:47:34.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T20:40:48.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Api.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "Api\\Api.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Api\\Api.csproj",
+              "RelativeToolTip": "Api\\Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T11:41:41.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T20:44:47.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\CleanArchitecture1\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T11:40:50.45Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
